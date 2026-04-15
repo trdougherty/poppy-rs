@@ -1,0 +1,16 @@
+[package]
+name = "poppy-rs"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "poppy_rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.28.3", features = ["extension-module"] }
+numpy = "0.28.0"
+num-complex = "0.4.6"
+ndarray = "0.17.2"
+ndrustfft = { version = "0.6.2", features = ["parallel"] }
+rayon = "1"
