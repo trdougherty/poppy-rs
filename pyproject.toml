@@ -1,0 +1,19 @@
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[project]
+name = "poppy-rs"
+requires-python = ">=3.9"
+description = "Rust-accelerated FFT and MFT backend for the poppy physical optics library"
+readme = "README.md"
+license = { text = "BSD-3-Clause" }
+keywords = ["astronomy", "optics", "fft", "jwst", "rust"]
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Scientific/Engineering :: Astronomy",
+]
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
