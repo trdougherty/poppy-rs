@@ -1,0 +1,29 @@
+[
+  {
+    "label": "NIRCam F200W",
+    "time_numpy_s": 6.1276,
+    "time_rust_s": 2.2635,
+    "speedup": 2.707,
+    "max_abs_diff": 1.3877787807814457e-17,
+    "rel_diff": 4.0440402055430543e-16,
+    "passed": true
+  },
+  {
+    "label": "NIRCam F444W",
+    "time_numpy_s": 2.0937,
+    "time_rust_s": 1.4468,
+    "speedup": 1.447,
+    "max_abs_diff": 1.3877787807814457e-17,
+    "rel_diff": 4.639222099271224e-16,
+    "passed": true
+  },
+  {
+    "label": "MIRI F560W",
+    "time_numpy_s": 2.6905,
+    "time_rust_s": 2.0023,
+    "speedup": 1.344,
+    "max_abs_diff": 3.469446951953614e-17,
+    "rel_diff": 6.452083850030181e-16,
+    "passed": true
+  }
+]
