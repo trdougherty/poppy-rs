@@ -1,0 +1,15 @@
+[
+  {
+    "label": "JWST_OTE_OPD_cycle1_example_2022-07-30",
+    "peak_numpy": 0.0012583910660444813,
+    "peak_rust": 0.0012583910660444813,
+    "total_flux_numpy": 0.15434355244917405,
+    "total_flux_rust": 0.15434355244917405,
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0,
+    "rel_diff_at_peak": 0.0,
+    "time_numpy_s": 0.2141,
+    "time_rust_s": 0.218,
+    "speedup": 0.982
+  }
+]
